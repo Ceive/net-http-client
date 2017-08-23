@@ -1,0 +1,17 @@
+{
+    "name": "ceive/net-http-client",
+    "description": "...",
+    "type": "library",
+    "license": "Apache 2.0",
+    "minimum-stability": "dev",
+    "require": {
+	  "ceive/net": "dev-master",
+	  "ceive/net-http-foundation": "dev-master",
+	  "ceive/net-hypertext": "dev-master"
+	},
+    "autoload" : {
+	  "psr-4": {
+		"Ceive\\Net\\HttpClient\\": "src/"
+	  }
+	}
+}
